@@ -1,4 +1,4 @@
-#content {
+#content, #head {
 	margin: auto;
 	text-align: center;
 }
@@ -58,4 +58,19 @@
 	margin: 100px auto;
 	text-align: center;
 	font-size: 26px;
+}
+
+#erro {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 26px;
+	color: red;
+}
+
+#header1 {
+	color: green;
+}
+
+#header2 {
+	color: gray;
 }

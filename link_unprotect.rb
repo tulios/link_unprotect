@@ -23,7 +23,8 @@ post '/' do
   when /#{'http'.reverse}$/i then link.reverse
   when /=$/ then Base64.decode64(link)
   else
-    puts 'nenhum caso!'
+    @erro = "Não foi possível resolver a url informada."
+    nil
   end
   erb :index
 end

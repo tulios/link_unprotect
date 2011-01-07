@@ -5,20 +5,14 @@
     <title>Link Unprotect</title>
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <div id="content">
-      <form action="/" method="post">
-        <div class="text_field">
-          <input type="text" name="link" id="link" value="<%= params[:link] %>">
-        </div>
-        <input type="submit" value="Enviar" class="minibutton" id="enviar">
-      </form>
+  <body>          
+    <div id="head">
+      <%= erb :header %>
     </div>
-    <% if @link %>
-      <div id="result">
-        <span id="unprotected_link"><%= @link %></span>
-        <span><%= get_clippy(@link) %></span>
-      </div>
-    <% end %>
+    <div id="content">
+      <%= erb :instructions %>
+      <%= erb :form %>
+      <%= erb :result %>
+    </div>
   </body>
 <html>

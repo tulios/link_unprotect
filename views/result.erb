@@ -1,0 +1,11 @@
+<% if @link %>
+  <div id="result">
+    <span id="unprotected_link">
+      <a href="<%= @link %>" target="_blank"><%= @link %></a>
+    </span>
+    <span><%= get_clippy(@link) %></span>
+  </div>
+<% end %>
+<% if @erro %>
+  <div id="erro"><%= @erro %></div>
+<% end %>
