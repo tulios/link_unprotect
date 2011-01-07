@@ -15,7 +15,10 @@
       </form>
     </div>
     <% if @link %>
-      <div id="result"><%= @link %></div>
+      <div id="result">
+        <span id="unprotected_link"><%= @link %></span>
+        <span><%= get_clippy(@link) %></span>
+      </div>
     <% end %>
   </body>
 <html>
