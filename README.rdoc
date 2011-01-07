@@ -1,0 +1,17 @@
+= Link Unprotect
+
+== Description
+  
+Unprotects some dumb 'protected' links.
+
+1) Reverse:
+  /7654:tsohlacol//:ptth => http://localhost:4567/
+
+2) Base64:
+  aHR0cDovL2xvY2FsaG9zdDo0NTY3Lw== => http://localhost:4567/
+  
+== How to use
+  ruby -rubygems link_unprotect.rb
+  
+access:
+  http://localhost:4567/

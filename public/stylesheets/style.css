@@ -1,0 +1,61 @@
+#content {
+	margin: auto;
+	text-align: center;
+}
+.text_field input, .text_area textarea, .password_field input, .url_field input, .edit_user input[type="text"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #CDCDCD;
+    border-color: -moz-use-text-color -moz-use-text-color white;
+    border-radius: 8px 8px 8px 8px;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    box-shadow: 0 3px 3px black inset;
+    color: black;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 38px;
+    margin: 5px 0 0;
+    padding: 15px;
+}
+
+.minibutton {
+    background: -moz-linear-gradient(center top , #F4F4F4, #ECECEC) repeat scroll 0 0 transparent;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: helvetica,arial,freesans,clean,sans-serif;
+    font-weight: bold;
+    overflow: visible;
+    padding: 0 0 0 3px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    white-space: nowrap;
+}
+
+.minibutton:hover {
+    background: -moz-linear-gradient(center top , #599BDC, #3072B3) repeat scroll 0 0 transparent;
+    border-color: #518CC6 #518CC6 #2A65A0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+#link {
+	width: 80%;
+}
+
+#enviar {
+	padding: 10px 20px;
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+#result {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 26px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Link Unprotect</title>
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="content">
+      <form action="/" method="post">
+        <div class="text_field">
+          <input type="text" name="link" id="link" value="<%= params[:link] %>">
+        </div>
+        <input type="submit" value="Enviar" class="minibutton" id="enviar">
+      </form>
+    </div>
+    <% if @link %>
+      <div id="result"><%= @link %></div>
+    <% end %>
+  </body>
+<html>
