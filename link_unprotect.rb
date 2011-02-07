@@ -54,7 +54,7 @@ helpers do
                  FlashVars="text=#{text}"
                  bgcolor="#{bgcolor}"
           />
-          </object>
+      </object>
     }
   end
 end
